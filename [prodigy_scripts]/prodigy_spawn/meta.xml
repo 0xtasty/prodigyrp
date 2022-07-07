@@ -1,0 +1,4 @@
+<meta>
+	<info author="+Alien" version="1.0.0" type="script" name="spawnconfiguraçao" description="spawnconfiguraçao" />
+	<script src="script.lua" type="server" />
+</meta>
