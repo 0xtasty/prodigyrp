@@ -482,7 +482,7 @@ addEvent('Schootz.onSetAnimation', true)
 addEventHandler('Schootz.onSetAnimation', root, function (player, animation)
 	setPedAnimation(player, unpack(animation))
 end)
-
+ -- salve
 ifp = {}
 
 setTimer(function()
