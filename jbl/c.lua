@@ -1,6 +1,13 @@
 radioSound = {}
+
+
+
 addEventHandler("onClientResourceStart", resourceRoot,
 	function()
+		txd = engineLoadTXD("assets/bl.txd", 2226 )
+		engineImportTXD(txd, 2226)
+		dff = engineLoadDFF("assets/jbl.dff", 2226 )
+		engineReplaceModel(dff, 2226)
 		bindKey("r", "down", clientToggleRadio)
 	end
 )
