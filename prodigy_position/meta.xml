@@ -1,0 +1,4 @@
+<meta>
+	<info author="Khalil" name="Get Position" type="script" version="1.0" />
+	<script src="pos.lua" type="client" />
+</meta> 
