@@ -8,6 +8,9 @@
 --|   You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 --|   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 --+----------------------------------------------------------------------------------------------------------------------------------------
+my_X = 1600
+my_Y = 900
+
 function x(var_X) 
     rX, rY = guiGetScreenSize() 
     x_new = math.floor(var_X*rX/1600) 
