@@ -1,7 +1,8 @@
 radioSound = {}
 
+function test()
 
-
+end
 addEventHandler("onClientResourceStart", resourceRoot,
 	function()
 		txd = engineLoadTXD("assets/bl.txd", 2226 )
