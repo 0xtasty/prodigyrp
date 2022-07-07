@@ -80,7 +80,7 @@ addEventHandler("onClientPreRender", root,
 tipo = getElementData(localPlayer, "ONE:VOZ") or "Normal"
 texto = "Voz: "
 addEventHandler('onClientRender', root, function()
-    dxDrawText(texto..""..tipo.."", x(1500),y(850),x(100),y(100_, tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
+    dxDrawText(texto..""..tipo.."", x(1500),y(850),x(100),y(100), tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
 end)
 
 addEventHandler('onClientResourceStart', root, function()
