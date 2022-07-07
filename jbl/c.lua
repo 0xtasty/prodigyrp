@@ -1,8 +1,4 @@
 radioSound = {}
-
-function test()
-
-end
 addEventHandler("onClientResourceStart", resourceRoot,
 	function()
 		txd = engineLoadTXD("assets/bl.txd", 2226 )
@@ -36,7 +32,7 @@ addEventHandler("onClientSoundChangedMeta", root,
 			if veh then
 				if radioSound[veh] == nil then return end
 				if radioSound[veh].soundElement == source then
-					outputChatBox("#696969M�sica: #AA2222 " .. streamTitle, 0, 0, 0, true)
+					outputChatBox("#696969M�sica: #AA2222 " .. streamTitle, 0, 0, 0, true)s
 				end
 			end
 		end
