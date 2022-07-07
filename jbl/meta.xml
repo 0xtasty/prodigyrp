@@ -1,0 +1,6 @@
+<meta>
+    <script src="replace.lua" type="client" cache="false" />
+	<file src="jbl.dff" />
+	<file src="jbl.txd" />	
+</meta>
+
