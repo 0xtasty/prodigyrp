@@ -70,7 +70,7 @@ texto = "Voz: "
 
 addEventHandler('onClientResourceStart', root, function()
     addEventHandler('onClientRender', root, function()
-        dxDrawText(texto..""..tipo.."", 100,200),100,100, tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
+        dxDrawText(texto..""..tipo.."", 100,200,100,100, tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
     end)
     if tipo == "Normal" then
         tipo = "Gritando"
