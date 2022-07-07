@@ -7,22 +7,7 @@
 --|   You are free to copy and redistribute the script, to remix, transform, and build upon the script for any purpose, even commercially.
 --|   You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 --|   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
---+----------------------------------------------------------------------------------------------------------------------------------------
-my_X = 1600
-my_Y = 900
-
-function x(var_X) 
-    rX, rY = guiGetScreenSize() 
-    x_new = math.floor(var_X*rX/1600) 
-    return x_new
-end 
-
-function y(var_Y)
-    rX, rY = guiGetScreenSize() 
-    y_new = math.floor(var_Y*rY/900)
-    return y_new
-end
-
+--+-----------------------------------------------------------------------------------------------------------------------------------
 local streamedOut = {}
 
 addEventHandler("onClientPreRender", root,
@@ -82,11 +67,11 @@ addEventHandler("onClientPreRender", root,
 
 tipo = getElementData(localPlayer, "ONE:VOZ") or "Normal"
 texto = "Voz: "
-addEventHandler('onClientRender', root, function()
-    dxDrawText(texto..""..tipo.."", x(100),y(200),x(100),y(100), tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
-end)
 
 addEventHandler('onClientResourceStart', root, function()
+    addEventHandler('onClientRender', root, function()
+        dxDrawText(texto..""..tipo.."", 100,200),100,100, tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
+    end)
     if tipo == "Normal" then
         tipo = "Gritando"
         setElementData(localPlayer, "ONE:VOZ", "Gritando")
