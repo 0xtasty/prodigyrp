@@ -554,3 +554,5 @@ function formatTextMelo(text, fonte, maxlargura, qntdlinhas)
     end 
     return text
 end 
+
+--salve
