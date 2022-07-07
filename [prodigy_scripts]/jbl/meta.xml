@@ -1,5 +1,4 @@
 <meta>
-    <script src="replace.lua" type="client" cache="false" />
 	<file src="assets/jbl.dff" />
 	<file src="assets/jbl.txd" />
 	<file src="c.lua" type="client" cache="false" />
