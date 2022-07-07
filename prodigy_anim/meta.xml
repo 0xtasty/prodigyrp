@@ -1,0 +1,53 @@
+<meta>
+    <script src="gJoao.lua" type="shared" />
+    <script src="sJoao.lua" type="server" />
+    <script src="cJoao.lua" type="client" cache="false" />
+
+    <file src="files/fonts/Roboto-Regular.ttf" />
+    <file src="files/fonts/Roboto-Medium.ttf" />
+    <file src="files/fonts/Roboto-Light.ttf" />
+    <file src="files/fonts/Roboto-Bold.ttf" />
+    
+    <file src="files/imgs/index/base.png" />
+    <file src="files/imgs/index/sair.png" />
+    <file src="files/imgs/base.png" />
+    <file src="files/imgs/base_convites.png" />
+    
+    <file src="files/imgs/danca.png" />
+    <file src="files/imgs/estilo_andar.png" />
+    <file src="files/imgs/interacao.png" />
+    <file src="files/imgs/objeto.png" />
+    <file src="files/imgs/outros.png" />
+    <file src="files/imgs/social.png" />
+    <file src="files/imgs/vips.png" />
+    <file src="files/imgs/use.png" />
+    <file src="files/imgs/favorite.png" />
+    <file src="files/imgs/favorites.png" />
+    <file src="files/imgs/adicionar_danca.png" />
+    <file src="files/imgs/base_convidado.png" />
+
+    <file src='files/ifp/abdominal.ifp' />
+    <file src='files/ifp/breakdance1.ifp' />
+    <file src='files/ifp/breakdance2.ifp' />
+    <file src='files/ifp/continencia.ifp' />
+    <file src='files/ifp/flexao.ifp' />
+    <file src='files/ifp/fortnite1.ifp' />
+    <file src='files/ifp/fortnite2.ifp' />
+    <file src='files/ifp/fortnite3.ifp' />
+    <file src='files/ifp/newAnims.ifp' />
+    <file src='files/ifp/render.ifp' />
+    <file src='files/ifp/sex.ifp' />
+
+    <file src="files/object/prancheta.txd" />
+	<file src="files/object/prancheta.dff" />
+	<file src="files/object/maleta.txd" />
+	<file src="files/object/maleta.dff" />
+	<file src="files/object/umbrella.txd" />
+	<file src="files/object/umbrella.dff" />
+	<file src="files/object/camera.txd" />
+	<file src="files/object/camera.dff" />
+
+    <file src="files/sfx/close_animations.mp3"/>
+    <file src="files/sfx/select_animations.mp3"/>
+    <file src="files/sfx/select_interactions.mp3"/>
+</meta>
