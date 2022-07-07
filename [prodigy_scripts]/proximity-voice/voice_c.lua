@@ -8,6 +8,17 @@
 --|   You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 --|   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 --+----------------------------------------------------------------------------------------------------------------------------------------
+function x(var_X) 
+    rX, rY = guiGetScreenSize() 
+    x_new = math.floor(var_X*rX/1600) 
+    return x_new
+end 
+
+function y(var_Y)
+    rX, rY = guiGetScreenSize() 
+    y_new = math.floor(var_Y*rY/900)
+    return y_new
+end
 
 local streamedOut = {}
 
@@ -69,7 +80,7 @@ addEventHandler("onClientPreRender", root,
 tipo = getElementData(localPlayer, "ONE:VOZ") or "Normal"
 texto = "Voz: "
 addEventHandler('onClientRender', root, function()
-    dxDrawText(texto..""..tipo.."", 1500,850,100,100, tocolor(255, 255, 255, 255), 1.00, "default", "left", "top", false, false, false, true, false)
+    dxDrawText(texto..""..tipo.."", x(1500),y(850),x(100),y(100_, tocolor(255, 255, 255, 255), x(1.00), "default", "left", "top", false, false, false, true, false)
 end)
 
 addEventHandler('onClientResourceStart', root, function()
