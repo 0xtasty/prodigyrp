@@ -1,32 +1,32 @@
 ﻿-- Configurações para quando um jogador entrar
 	-- XYZ coodenadas
-	local joinX = 1387.2111816406
-	local joinY = -1648.4295654297
-	local joinZ = 13.78125
+	local joinX = 1480.705
+	local joinY = -1768.473    
+	local joinZ = 18.796
 	-- Armas e tiros
-	local joinWeapon = 100
-	local joinAmmo = 90
+	--local joinWeapon = 100
+	--local joinAmmo = 90
 	-- Menssagem para o jogador
-	local joinMessage = "~>[S]ilver!"
+	--local joinMessage = "~>[S]ilver!"
 	-- Pele do jogador
-	local joinSkin = 19
+	--local joinSkin = 19
 
 -- Configurações para quando um jogador morrer
 	-- XYZ coördinates
-	local spawnX = 1387.2111816406
-	local spawnY = -1648.4295654297
-	local spawnZ = 13.78125
+	local spawnX = 2037.885
+	local spawnY = -1412.131
+	local spawnZ = 17.164
 	-- Armas e tiros
-	local spawnWeapon = 31
-	local spawnAmmo = 100
+	--local spawnWeapon = 31
+	--local spawnAmmo = 100
 	-- Pele do jogador
-	local spawnSkin = 27
+	--local spawnSkin = 27
 
 -- Definições para as quantidades de dinheiro
 	-- Dinheiro por matar um jogador
-	local killerMoney = 500
+	--local killerMoney = 500
 	-- O dinheiro retirado do jogador quando morrem
-	local deadPlayerMoney = 50
+	--local deadPlayerMoney = 50
 	-- Dinheiro ganho quando entra no server
 	local joinMoney = 9000
 

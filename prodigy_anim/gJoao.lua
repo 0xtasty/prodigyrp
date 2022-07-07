@@ -542,5 +542,5 @@ Ossos = {
 }
 
 notifyS = function(player, message, tipo)
-    exports['FR_DxMessages']:addBox(player, message, tipo)
+    --exports['FR_DxMessages']:addBox(player, message, tipo)
 end

@@ -114,7 +114,7 @@ function dx()
             if (i > proxPage and linha < maxLinhas) then
                 linha = linha + 1
                 if isMouseInPosition(Buttons[linha][1], Buttons[linha][2], Buttons[linha][3], Buttons[linha][4]) or selectButton == i then
-                    dxDrawRectangle(Buttons[linha][1], Buttons[linha][2], Buttons[linha][3], Buttons[linha][4], tocolor(139, 0, 255, alpha))
+                    dxDrawRectangle(Buttons[linha][1], Buttons[linha][2], Buttons[linha][3], Buttons[linha][4], tocolor(31, 31, 31, alpha))
                 else
                     dxDrawRectangle(Buttons[linha][1], Buttons[linha][2], Buttons[linha][3], Buttons[linha][4], tocolor(19, 20, 21, alpha))
                 end
@@ -134,7 +134,7 @@ function dx()
                             soundPlayed[linhafavoritos] = true
                             playSound('files/sfx/select_interactions.mp3')
                         end 
-                        dxDrawImage(Favorites[linhafavoritos][1], Favorites[linhafavoritos][2], x * 51, y * 51, "files/imgs/"..config["ImgInterações"][i]..".png", 0, 0, 0, tocolor(139, 0, 255))
+                        dxDrawImage(Favorites[linhafavoritos][1], Favorites[linhafavoritos][2], x * 51, y * 51, "files/imgs/"..config["ImgInterações"][i]..".png", 0, 0, 0, tocolor(31, 31, 31))
                         dxDrawText(string.upper(removeAccents(conteudo)) ,x * 573,y * 320, x * 791, y * 445, tocolor(255, 255, 255, 255), 1, font3, "center", "center")
                     else 
                         soundPlayed[linhafavoritos] = nil
@@ -170,17 +170,17 @@ function dx()
             if (i > proxPageSelect and linha < maxLinhasSelect) then
                 linha = linha + 1
                 if isMouseInPosition(ButtonsAnim[linha][1], ButtonsAnim[linha][2], ButtonsAnim[linha][3], ButtonsAnim[linha][4]) then 
-                    dxDrawRectangle(ButtonsAnim[linha][1], ButtonsAnim[linha][2], ButtonsAnim[linha][3], ButtonsAnim[linha][4], tocolor(139, 0, 255, alpha))
+                    dxDrawRectangle(ButtonsAnim[linha][1], ButtonsAnim[linha][2], ButtonsAnim[linha][3], ButtonsAnim[linha][4], tocolor(31, 31, 31, alpha))
                 else
-                    dxDrawRectangle(ButtonsAnim[linha][1], ButtonsAnim[linha][2], ButtonsAnim[linha][3], ButtonsAnim[linha][4], (AnimSelecionada == i and tocolor(139, 0, 255, alpha) or tocolor(19, 20, 21, alpha)))
+                    dxDrawRectangle(ButtonsAnim[linha][1], ButtonsAnim[linha][2], ButtonsAnim[linha][3], ButtonsAnim[linha][4], (AnimSelecionada == i and tocolor(31, 31, 31, alpha) or tocolor(19, 20, 21, alpha)))
                 end
                 if isMouseInPosition(ButtonsAnimUse[linha][1], ButtonsAnimUse[linha][2], ButtonsAnimUse[linha][3], ButtonsAnimUse[linha][4]) or selectAnim == i then
-                    dxDrawImage(ButtonsAnimUse[linha][1], ButtonsAnimUse[linha][2], ButtonsAnimUse[linha][3], ButtonsAnimUse[linha][4], "files/imgs/use.png", 0, 0, 0, tocolor(139, 0, 255, alpha))
+                    dxDrawImage(ButtonsAnimUse[linha][1], ButtonsAnimUse[linha][2], ButtonsAnimUse[linha][3], ButtonsAnimUse[linha][4], "files/imgs/use.png", 0, 0, 0, tocolor(31, 31, 31, alpha))
                 else
                     dxDrawImage(ButtonsAnimUse[linha][1], ButtonsAnimUse[linha][2], ButtonsAnimUse[linha][3], ButtonsAnimUse[linha][4], "files/imgs/use.png", 0, 0, 0, tocolor(255, 255, 255, alpha))
                 end
                 if isMouseInPosition(ButtonsAnimFavorite[linha][1], ButtonsAnimFavorite[linha][2], ButtonsAnimFavorite[linha][3], ButtonsAnimFavorite[linha][4]) or selectFav[buttonSelect][i] then
-                    dxDrawImage(ButtonsAnimFavorite[linha][1], ButtonsAnimFavorite[linha][2], ButtonsAnimFavorite[linha][3], ButtonsAnimFavorite[linha][4], "files/imgs/favorite.png", 0, 0, 0, tocolor(139, 0, 255, alpha))
+                    dxDrawImage(ButtonsAnimFavorite[linha][1], ButtonsAnimFavorite[linha][2], ButtonsAnimFavorite[linha][3], ButtonsAnimFavorite[linha][4], "files/imgs/favorite.png", 0, 0, 0, tocolor(31, 31, 31, alpha))
                 else
                     dxDrawImage(ButtonsAnimFavorite[linha][1], ButtonsAnimFavorite[linha][2], ButtonsAnimFavorite[linha][3], ButtonsAnimFavorite[linha][4], "files/imgs/favorite.png", 0, 0, 0, tocolor(255, 255, 255, alpha))
                 end
